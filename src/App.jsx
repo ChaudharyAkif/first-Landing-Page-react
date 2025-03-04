@@ -1,22 +1,12 @@
-
-import logo from '../public/images/brand_logo.png'
-
+import React from "react";
+import "./App.css"; // Import styles separately
+import Navigation from "./Components/Navigation";
 
 function App() {
   return (
     <div>
-      <nav>
-        <div className="logo">
-          <img src={logo} alt="logo" />
-        </div>
-        <ul>
-          <li>Menu </li>
-          <li>Location </li>
-          <li>About </li>
-          <li>Contact </li>
-        </ul>
-<button>Login</button>
-      </nav>
+      <h1>as</h1>
+<Navigation />
     </div>
   );
 }
